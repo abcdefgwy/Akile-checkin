@@ -2,7 +2,7 @@ name: Akile Daily Check-in
 
 on:
   schedule:
-    # 北京时间每天 09:00 = UTC 每天 01:00
+    # 北京时间每天 07:34 = UTC 每天 23:34
     - cron: '34 23 *  * *'
   workflow_dispatch:
 
